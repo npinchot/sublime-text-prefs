@@ -1,0 +1,15 @@
+{
+    // "pep8": false
+    "pep8_ignore": [
+        "E121", // indent multiple of 4
+        "E126", // hanging indent line over indented continuation
+        "E127", // continuation line over indented for visual indent
+        "E221", // multiple spaces
+        "E261", // 2 spaces before comment
+        "E272", // multiple spaces before keyword
+        "E301", // expected 1 blank line, found 0
+        "E302", // 2 blank lines
+        "E501",  // line too long
+        "E701"  // multiple statements on one line
+    ]
+}

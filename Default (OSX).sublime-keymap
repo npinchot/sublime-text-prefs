@@ -1,0 +1,17 @@
+[
+    // copied from 'Default (OSX).sublime-keymap' because Emmet package was overriding this key
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+
+    // remapped from default alt+space because that's a system wide shortcut to Alfred
+    {
+        "keys": ["ctrl+alt+space"],
+        "command": "tern_select_variable",
+        "context": [
+            {"key": "selector", "operand": "source.js"}
+        ]
+    },
+
+    // copied from 'Default (OSX).sublime-keymap' because Emmet package was overriding this key
+    { "keys": ["super+alt+down"], "command": "goto_definition" }
+
+]

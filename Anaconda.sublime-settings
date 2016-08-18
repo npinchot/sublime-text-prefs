@@ -1,0 +1,40 @@
+{
+    /*
+        A list of pep8 error numbers to ignore.
+        The list of error codes is in this file: https://github.com/jcrocholl/pep8/blob/master/pep8.py.
+        Search for "Ennn:", where nnn is a 3-digit number.
+    */
+    "pep8_ignore": [
+        "E116", // unexpected indentation (comment)
+        "E121", // indent multiple of 4
+        "E124", // closing bracket does not match visual indentation
+        "E126", // hanging indent line over indented continuation
+        "E127", // continuation line over indented for visual indent
+        "E128", // continuation line under indented for visual indent
+        "E201", // spaces after {
+        "E202", // spaces before }
+        "E221", // multiple spaces
+        "E241", // multiple spaces after comma
+        "E261", // 2 spaces before comment
+        "E265", // block comment start with '# '
+        "E272", // multiple spaces before keyword
+        "E301", // expected 1 blank line, found 0
+        "E302", // 2 blank lines
+        "E402", // module import not at top of file
+        "E501",  // line too long
+        "E502",  // backslash redundant between brackets
+        "E701"  // multiple statements on one line
+    ],
+
+    // {
+    //     "auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}]
+    // },
+
+
+    "anaconda_linter_delay": 1.5,
+
+    "anaconda_gutter_theme": "bright",
+
+    // Maximum line length for pep8
+    // "pep8_max_line_length": 120
+}

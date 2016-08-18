@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@staticmethod
+def load(${1:*args}, **kwargs):
+    cache_key = 'ViewModel_{}'.format(${1:*args})
+
+    return CachingViewModel.load(ViewModel, cache_key, ${1:*args}, **kwargs)
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cvm_load</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.python</scope>
+</snippet>

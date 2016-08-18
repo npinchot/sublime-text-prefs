@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"Cucumber",
+		"Djaneiro",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"LESS",
+		"Material Theme",
+		"MoveTab",
+		"Package Control",
+		"Puppet",
+		"Sass",
+		"Theme - Soda"
+	]
+}
